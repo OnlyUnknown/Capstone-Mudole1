@@ -152,11 +152,12 @@ margin-right: 50px
 
 .past-work-cont p{
     color: aliceblue;
-    font-size: 30px;
+    font-size: 25px;
+    text-align: center;
+    margin-top: -10px;
 }
 
 .past-work-back2{
-  
     max-width: 600px;
     max-height: 500px;
      background-image: url("past-work2.jpg");
@@ -164,3 +165,39 @@ margin-right: 50px
      background-repeat: no-repeat;
      
  }
+
+ .partners{
+    background-color: rgb(73, 69, 69);
+    color: aliceblue;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+
+ .logos{
+max-width: 768px;
+height:100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+   
+ }
+
+ .logos img{
+    width: 60px;
+    height: 20px;
+    margin: 12px;
+    filter: grayscale();
+    -webkit-filter: grayscale();
+ }
+
+ .logos img:hover {
+    -webkit-filter: grayscale(0);
+    filter: none;
+  }
+
+  .title-partners{
+    text-align: center;
+  }
