@@ -55,8 +55,49 @@ body {
    margin-left: 50px;
    margin-right: 50px;
    line-height: 30px;
+   padding-bottom: 50px;
 }
 
 .home-date a{
     color: gray;
+}
+
+.about-works{
+    max-width: 768px;
+
+}
+
+.line-logo{
+    width: 40px;
+    height: 0px;
+    border: 2px solid orange;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title-logo {
+font-size: 35px;
+text-align: center;
+color: rgb(93, 96, 98);
+padding-top: 30px;
+padding-bottom: 30px;
+}
+
+.logo-disc{
+    margin-right: 12px;
+    margin-left: 12px;
+    text-align: center;
+}
+
+.logo-background img{
+    max-width: 200px;
+}
+
+.logo-background{
+    text-align: center;
+ border: solid 1px gray;
+ margin-right: 30px;
+ margin-left: 30px;
+ margin-top: 40px
 }
