@@ -23,7 +23,7 @@ body {
 }
 
 .home-title {
-    font-weight: 400;
+    font-weight: 1000;
     max-width: 768px;
     height: 300px;
     color: rgb(255, 115, 0);
@@ -32,27 +32,31 @@ body {
 
 .title-p {
     max-width: 768px;
-    background-color: rgb(255, 248, 248);
+    background-color: rgb(255, 255, 255);
     font-size: 20px;
     margin-top: -130px;
-    border: solid white 5px;
-    padding: 12px;
-    font-size: normal;
-    margin-left: 12px ;
-    margin-right: 12px;
+    border: solid 10px aliceblue;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    padding: 10px;
 }
 
 .title-p p{
     font-size: normal;
     color: rgba(128, 128, 128, 0.97);
+    margin: auto;
     line-height: 30px;
 }
 
 .home-date{
-    margin-left: 12px;
-    font-size: 40px;
-    max-width: 768px;
-    color: rgb(128, 128, 128);
-    font-weight: 1000;
-    margin-top: 12px;
+    margin-top: 50px ;
+    text-align: center;
+   margin-left: 50px;
+   margin-right: 50px;
+   line-height: 30px;
+}
+
+.home-date a{
+    color: gray;
 }
