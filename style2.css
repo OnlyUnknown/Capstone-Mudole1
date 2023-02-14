@@ -385,4 +385,83 @@ footer{
         width: 500px;
     }
 
+    .past-work{
+        margin-top: 50px;
+        border-top: solid 1px gray;
+    }
+    
+    .past-work-cont{
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+        max-width: 100%;
+        margin: 30px;
+        justify-content: center;
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+    
+    .past-work-cont img{ 
+      margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .past-work-back{
+      
+       width: 500px;
+       height: 300px;
+        background-image: url("past-work1.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    }
+    
+    
+    .pic-op{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+         background:rgba(190, 108, 21, 0.57);
+        z-index: 2;
+        max-width: 100%;
+        height: 100%;
+    }
+    
+    .pic-op h2{
+        font-size: 50px;
+        color: aliceblue;
+       
+    }
+    
+    .past-work-cont p{
+        color: aliceblue;
+        font-size: 25px;
+        text-align: center;
+        margin-top: -10px;
+    }
+    
+    .past-work-back2{
+        width: 500px;
+       height: 300px;
+         background-image: url("past-work2.jpg");
+         background-size: cover;
+         background-repeat: no-repeat;
+         
+     }
+
+     .footer{
+        background-color: rgb(52, 51, 51);
+        justify-content: center;
+        color: aliceblue;
+        padding-top: 50px;
+        padding-bottom: 50px;
+     }
+
+     .footer-p{
+        width: 400px;
+        height: 20px;
+        font-size: 15px;
+     }
+
   }
