@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 body {
     font-family: 'Inter', sans-serif;
+    margin: 0px;
 }
 
 .nav-bar-i{
@@ -233,14 +234,18 @@ margin-right: 50px
         margin-right: 100px;
         font-weight: 1000;
     }
-
+    
     .about{
         color: rgb(203, 90, 45);
     }
 
     .logo-nav img{
-       margin-right: 100px;
+       margin-left: 200px;
         height: 50px;
+    }
+
+    .logo-nav{
+        margin-right: auto;
     }
 
     
@@ -327,5 +332,119 @@ margin-right: 50px
          margin-top: 12px;
      }
      
-   
+     
+.program-list{
+    background-image: url("images/patternBackground.png");
+    background-color: rgb(50, 48, 48);
+    max-width: 100%;
+    padding: 12px;
+    padding-bottom: 40px;
+}
+
+.flex-prog{
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-lect{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(128, 128, 128, 0.25);
+    align-items: center;
+    width: 230px;
+}
+
+.flex-lect:hover{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(236, 43, 43, 0.25);
+    align-items: center;
+    width: 229px;
+    border: #ccc solid 1px;
+}
+
+.flex-lect img{
+    padding: 20px;
+}
+
+.heading-lect{
+    color: rgba(255, 85, 0, 0.905);
+    font-size: 22px;
+    max-width: 230px;
+    margin-right: 0px;
+    text-align: center;
+    font-weight: 1000;
+    margin-top: 8px;
+}
+
+.heading-p{
+    color: aliceblue;
+    font-size: 13px ;
+   line-height: 20px;
+   margin-left: 0px;
+   padding-right: 0px;
+   text-align: center;
+   margin-top: 5px;
+   padding-bottom: 12px;
+}
+
+.title-partners{
+    color: aliceblue;
+    font-size: 25px;
+text-align: center;
+padding-top: 30px;
+padding-bottom: 30px;
+margin-left: 50px;
+margin-right: 50px
+  }
+
+  .line-logo{
+    width: 40px;
+    height: 0px;
+    border: 2px solid orange;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.heading-push{
+    margin-right: 0px;
+}
+
+.heading-push2{
+    margin-right: 0px
+}
+
+.heading-push3{
+    margin-right: 0px;
+}
+
+
+.join-community{
+    display: none;
+}
+
+.title-partners-gray{
+    color: gray;
+    font-size: 25px;
+text-align: center;
+padding-top: 30px;
+padding-bottom: 30px;
+margin-left: 50px;
+margin-right: 50px
+  }
+
+  .see-program{
+    text-decoration: underline;
+    text-align: center;
+    color: #ccc;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+
   }
