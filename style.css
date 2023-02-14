@@ -204,6 +204,14 @@ margin-right: 50px
     font-size: large;
   }
 
+  .nav-links{
+    display: none;
+  }
+
+  .sign-in{
+    display: none;
+  }
+
   @media only screen and (min-width: 768px){
     .nav-bar-i{
         position: relative;
@@ -219,9 +227,10 @@ margin-right: 50px
     .nav-links{
         display: flex;
         gap: 60px;
-        margin-left: 250px;
+        justify-content: end;
         align-items: center;
         font-size: small;
+        margin-right: 100px;
     }
 
     .about{
@@ -229,7 +238,7 @@ margin-right: 50px
     }
 
     .logo-nav img{
-        margin-right: 300px;
+       margin-right: 100px;
         height: 50px;
     }
 
