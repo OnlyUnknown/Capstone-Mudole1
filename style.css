@@ -263,6 +263,7 @@ margin-right: 50px
     
     .about{
         color: rgb(203, 90, 45);
+        text-decoration: none;
     }
 
     .logo-nav img{
@@ -449,6 +450,9 @@ margin-right: 50px
     margin-right: 0px;
 }
 
+.see-program{
+    display: block;
+}
 
 .join-community{
     display: none;
