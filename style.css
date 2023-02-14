@@ -151,4 +151,55 @@ margin-left: 50px;
 margin-right: 50px
   }
 
+  .grid-speakers{
+    display: grid;
+    grid-template-rows: 1fr;
+    gap: 50px;
+  }
 
+  .speaker{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .speaker-name{
+    font-size:25px;
+    color:rgb(39, 40, 42);
+    font-weight: 1000;
+  }
+
+  .speaker-position{
+    color:rgb(203, 90, 45);
+    font-weight: 1000;
+    font-style:italic;
+    margin-top: 10px
+  }
+
+  .speaker-break{
+    width:20px;
+    height: 0px;
+    border: gray 2px solid ;
+    margin-top: 15px;
+    margin-bottom: 15px
+  }
+
+  .flex-speaker-cont{
+    display: flex;
+    flex-direction:column;
+    margin-left:20px;
+    margin-right: 20px
+  }
+
+  .show-more{
+    border: gray 1px solid;
+    max-width: 768px;
+    height: 50px;
+    text-align: center;
+  }
+
+  .show-more i{
+    color: rgb(255, 115, 0);
+    text-shadow: 1px 1px 1px #ccc;
+    margin-left: 10px;
+    font-size: large;
+  }
