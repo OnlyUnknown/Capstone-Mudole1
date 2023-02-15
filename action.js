@@ -7,6 +7,30 @@ function myFunction() {
     }
   }
   
+  let icon = '<p class="text">LESS<i class="fa-sharp fa-solid fa-angle-up"></i>'
+let icon2 = '<p class="text">MORE<i class="fa-sharp fa-solid fa-angle-down"></i>'
+
+let show = document.querySelector(".text")
+
+let show2 = document.querySelector(".show-more")
+
+
+
+  function showMore() {
+    const L = document.querySelectorAll('.hidden');
+    for(let i = 0; i < L.length; i++){
+    if (L[i].style.display === 'flex') {
+      L[i].style.display = 'none';
+      show2.innerHTML = icon2
+    } else {
+      L[i].style.display = 'flex';
+      show2.innerHTML = icon
+    }
+}
+  }
+
+
+
   function changeIcon() {
     const icon = document.querySelector('#menu-b');
     icon.classList.toggle('fa-bars');
@@ -108,3 +132,4 @@ function myFunction() {
   }
 
   document.addEventListener("DOMContentLoaded", content())
+
