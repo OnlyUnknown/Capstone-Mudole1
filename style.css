@@ -278,6 +278,10 @@ margin-right: 50px
     display: none;
   }
 
+  .hidden{
+    display: none;
+  }
+
   @media only screen and (min-width: 768px){
     .nav-bar-i{
         position: relative;
@@ -528,7 +532,9 @@ margin-right: 50px
     padding-left: 150px;
     margin-bottom: 100px;
   }
-
+  .hidden{
+    display: flex;
+  }
   .show-more{
     display: none;
   }

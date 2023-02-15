@@ -19,6 +19,7 @@ function myFunction() {
 
 
   speaker = [{
+    class: ["speaker"],
     name: 'Yachai Benkler',
     position: 'Berkman Professore of Entrepreneurial Legal Studies at Harvard Law School',
     discription: 'Benkler studies commons-based peer production, and published his seminal book'
@@ -26,6 +27,7 @@ function myFunction() {
     image:'images/speaker1.png' ,
   },
   {
+    class: ["speaker"],
     name: 'SohYeong Noh',
     position: 'Director of Art Centre Nabi and a board member of CC Korea',
     discription: 'As the main venue for new media art production in Korea, Nabi promots'
@@ -33,6 +35,7 @@ function myFunction() {
     image: 'images/speaker2.png' ,
   },
   {
+    class: ["speaker", "hidden"],
     name: 'Lila Tretikob',
     position: 'Excutive Director of the Wikimedia Foundation',
     discription: 'Lila Tretikove is the Excutive Director of the Wikimedia Foundation, the nonprofit'
@@ -41,6 +44,7 @@ function myFunction() {
     image: 'images/speaker3.png',
   },
   {
+    class: ["speaker", "hidden"],
     name: 'Kilnam Chon',
     position: '',
     discription: 'Kilnam Chon helped bring the internet to Asia and is an outspoken advocates for the'
@@ -49,6 +53,7 @@ function myFunction() {
     image: 'images/speaker4.png',
   },
   {
+    class: ["speaker", "hidden"],
     name: 'Julia Leda',
     position: 'Presedent of Young Pirates of Europe',
     discription: 'European ingetration, political democraxy and participation of youth through online'
@@ -57,6 +62,7 @@ function myFunction() {
     image: 'images/speaker5.png' ,
   },
   {
+    class: ["speaker", "hidden"],
     name: 'Ryan Merkley',
     position: 'CEO of Creative Commons, ex COO of the Mozilla Foundation',
     discription: 'Ryan had been leading open-source projects at the Mozilla Foundation such as the open'
@@ -68,7 +74,11 @@ function myFunction() {
     speaker.forEach(item => {
        const parent = document.querySelector(".grid-speakers"); 
        const speakerDiv = document.createElement("div");
-       speakerDiv.classList.add("speaker");
+
+       for(let i = 0; i < item.class.length; i++){
+        speakerDiv.classList.add(...item.class);
+       }
+
        const porfilePic = document.createElement("img");
        porfilePic.setAttribute("src", item.image);
        const flexSpeaker = document.createElement("div");
