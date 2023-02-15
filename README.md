@@ -61,10 +61,11 @@ After you're finished please remove all the comments and instructions!
 <!-- PROJECT DESCRIPTION -->
 
 
-# 📖 [Portfolio page] <a name="about-project"></a>
+# 📖 Rescue the Earth page <a name="about-project"></a>
 
+I built the webpage for Rescue the Earth community,
+using data from some journals and a design of <a href="https://www.behance.net/adagio07">Cindy Shin<a> 
 
-Portfolio page with flexbox, and with summary and also with social media icons
 
 ## 🛠 Built With <a name="built-with"></a>
 -HTML
@@ -76,8 +77,9 @@ Portfolio page with flexbox, and with summary and also with social media icons
 
 ### Key Features <a name="key-features"></a>
 
-
-a Portfolio page
+The home page displays all the main information about the community as weel as speakers information
+The about page displays information about previous community work
+It has a mobile version too for each page
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -85,8 +87,8 @@ a Portfolio page
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
+<a href="https://onlyunknown.github.io/Capstone-Mudole1/">Live view</a>
 
-https://onlyunknown.github.io/portfolio-mobile-first/
 
 
 
@@ -103,26 +105,21 @@ the frameworks that has been used and the program languages has been used.
 
 ### Prerequisites
 
-In order to run this project you need:
+Not necessary
 
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
 
 ### Setup
 
 Clone this repository to your desired folder:
 
+ cd my-folder
+  git clone git@github.com:OnlyUnknown/Capstone-Mudole1.git
+
 <!--
 Example commands:
 
 ```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+ 
 ```
 --->
 
@@ -130,12 +127,12 @@ Example commands:
 
 Install this project with:
 
+cd Capstone-Mudole1
+  gem install
 <!--
 Example command:
 
 ```sh
-  cd my-project
-  gem install
 ```
 --->
 
@@ -155,6 +152,9 @@ Example command:
 
 To run tests, run the following command:
 
+-VScode 
+-The link of the live version above
+
 <!--
 Example command:
 
@@ -163,9 +163,6 @@ Example command:
 ```
 --->
 
-### Deployment
-
-You can deploy this project using:
 
 <!--
 Example:
@@ -179,16 +176,12 @@ Example:
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="authors"></a>
+## 👥 Author <a name="authors"></a>
 
 
 👤 **Abdullah Al-Khureif**
 
 - GitHub: [@OnlyUnknown](https://github.com/OnlyUnknown)
-
-👤 **Abdullah Mamun**
-
-- GitHub:[@Md.Abdullah al mamun](https://github.com/dev-mamun)
 
 =======
 
@@ -201,7 +194,7 @@ Example:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-Not yet
+Other Pages
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -228,7 +221,7 @@ If you like this project...
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 
-I would like to thank Microverse...
+I would like to thank <a href="https://www.behance.net/adagio07">Cindy Shin in Behance<a> for original design idea.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
