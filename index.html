@@ -7,12 +7,19 @@
     <script src="https://kit.fontawesome.com/67e6112a71.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
-    <script defer src="action.js"></script>
+    <script type="text/javascript" defer src="action.js"></script>
     <title>Document</title>
 </head>
 <body>
-    <div class="sign-in"><i class="fa fa-facebook-f" ></i> <i class="fa-brands fa-twitter"></i> <p>English</p> <p>MyPage</p> <p>logout</p></div>
-    <nav class="nav-bar-i"><i class="fa-sharp fa-solid fa-bars"></i>
+    <div class="sign-in"><i class="fa fa-facebook-f" ></i><i class="fa-brands fa-twitter"></i> <p>English</p> <p>MyPage</p> <p>logout</p></div>
+    <nav  id="menu" class="nav-bar-i"><i id="menu-b" onclick="changeIcon();myFunction()" class="fa-sharp fa-solid fa-bars"></i>
+          <ul class="nav-bar-courtain">
+            <li><a href="about.html">About</a></li>
+            <li>Program</li>
+            <li>Join</li>
+            <li>Sponsor</li>
+            <li>News</li>
+        </ul>
         <div class="nav-links">
             <div class="logo-nav"><img src="./earth-logo.png"></div>
         <a href="about.html" class="about">About</a>

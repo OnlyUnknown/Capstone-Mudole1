@@ -8,6 +8,47 @@ body {
     position: fixed;
 }
 
+.nav-bar-i i{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 30px;
+    position: fixed;
+    z-index: 2;
+    color: black;
+}
+
+.nav-bar-courtain a{
+    text-decoration: none;
+    color: gray;
+}
+
+
+.nav-bar-courtain {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    max-width: 768px;
+    height: 1100px;
+    margin-top: -29px;
+    padding-top: 50px ;
+    margin-left: -10px;
+    color: gray;
+    position: fixed;
+ list-style: none;
+ font-size: 30px;
+display: none;
+}
+
+.nav-bar-courtain {
+    
+    width: 786px;
+    font-size: 50px;
+    line-height: 100px;
+}
+
+
 .nav-links{
     display: none;
   }
