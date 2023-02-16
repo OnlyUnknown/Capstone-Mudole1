@@ -87,7 +87,7 @@ It has a mobile version too for each page
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-<a href="https://onlyunknown.github.io/Capstone-Mudole1/">Live view</a>
+<a href="https://onlyunknown.github.io/Capstone-Mudole1/">Live view</a><br>
 <a href="https://www.loom.com/share/9c5d9f4d85cc48f3a8a7a3c053246570">The Recording<a>
 
 
