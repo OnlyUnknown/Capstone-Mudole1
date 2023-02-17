@@ -124,54 +124,6 @@ Example commands:
 ```
 --->
 
-### Install
-
-Install this project with:
-
-cd Capstone-Mudole1
-  gem install
-<!--
-Example command:
-
-```sh
-```
---->
-
-### Usage
-
-To run the project, execute the following command:
-
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
-
-### Run tests
-
-To run tests, run the following command:
-
--VScode 
--The link of the live version above
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
-
-
-<!--
-Example:
-
-```sh
-
-```
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
