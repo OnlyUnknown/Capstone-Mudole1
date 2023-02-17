@@ -44,6 +44,7 @@ const speaker = [{
   discription: 'Benkler studies commons-based peer production, and published his seminal book'
     + 'The Wealth of Networks in 2006',
   image: 'images/speaker1.png',
+  imageName: 'Yachai Benkler picture'
 },
 {
   class: ['speaker'],
@@ -52,6 +53,7 @@ const speaker = [{
   discription: 'As the main venue for new media art production in Korea, Nabi promots'
     + 'cross-disciplinary collanoration and understanding among science technology, humanities, and the arts.',
   image: 'images/speaker2.png',
+  imageName: "Sohyeong Noh picture",
 },
 {
   class: ['speaker', 'hidden'],
@@ -61,6 +63,7 @@ const speaker = [{
     + 'organization that operates Wikipedia. Wikipedia is freely abailable in 290 languages and used'
     + 'by nearly half a billion people around the world every month.',
   image: 'images/speaker3.png',
+  imageName: "Lila Tretikob picture",
 },
 {
   class: ['speaker', 'hidden'],
@@ -70,6 +73,7 @@ const speaker = [{
     + 'open web and digital commons. in 2012. he was inducted into the inaugural class of the internet'
     + "Society's (ISOC) internet Hall of Fame.",
   image: 'images/speaker4.png',
+  imageName: "Kilnam Chon picture",
 },
 {
   class: ['speaker', 'hidden'],
@@ -79,6 +83,7 @@ const speaker = [{
     + "as her magor condem, Reda's report oulining potential changes to EU copyright law was approved"
     + 'by the Parlament in July.',
   image: 'images/speaker5.png',
+  imageName: "Julia Leda picture"
 },
 {
   class: ['speaker', 'hidden'],
@@ -87,6 +92,7 @@ const speaker = [{
   discription: 'Ryan had been leading open-source projects at the Mozilla Foundation such as the open'
     + 'source movement',
   image: 'images/speaker6.png',
+  imageName: "Ryan Merkley picture"
 }];
 
 function content() {
@@ -100,6 +106,7 @@ function content() {
 
     const porfilePic = document.createElement('img');
     porfilePic.setAttribute('src', item.image);
+    porfilePic.setAttribute('alt', item.imageName)
     const flexSpeaker = document.createElement('div');
     flexSpeaker.classList.add('flex-speaker-cont');
     const speakerName = document.createElement('div');
